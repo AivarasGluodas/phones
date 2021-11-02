@@ -1,0 +1,6 @@
+<div *ngFor="let phoneBrand of availablePhoneBrands" class="phone-div">
+  <div class="phone-div mat-card-flex" (click)="goToBrand(phoneBrand.id)">
+    <h1>{{phoneBrand.displayName}}</h1>
+    <img src="{{phoneBrand.displayImageUrl}}" alt="phone photo">
+  </div>
+</div>

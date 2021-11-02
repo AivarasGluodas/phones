@@ -1,0 +1,13 @@
+<nav class="space-under" fxLayoutAlign="center center">
+  <button mat-raised-button color="primary" routerLink='/phones'>Back</button>
+</nav>
+
+<div *ngFor="let phone of allPhones" class="phone-div">
+  <div class="phone-div mat-card-flex">
+    <h1>{{phone.displayName}}</h1>
+    <p>{{phone.price}} {{phone.priceSuffix}}</p>
+    <img src="{{phone.imgUrl}}" alt="phone photo">
+  </div>
+</div>
+
+

@@ -1,0 +1,11 @@
+
+.phone-div{
+  display: inline-block;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.space-under{
+  padding-bottom: 50px;
+}
